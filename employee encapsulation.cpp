@@ -14,6 +14,7 @@ class Employee {
 			return Name;
 		}
 		void setAge(int age){
+			if(age>=18) // conditional statement in setter and getter method
 			Age=age;
 		}
 		int getAge(){
@@ -25,7 +26,7 @@ class Employee {
 	    	cout << "Age: " << Age << endl;
 		}
 		/*Employee(string name,string company,int age){
-			Name =  name;
+			Name =  name;                                  // hide constructor because it acts as a non defined function.
 			Company = company;
 			Age = age;
 		}*/
